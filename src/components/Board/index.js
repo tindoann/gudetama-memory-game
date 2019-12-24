@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Card from '../Card'; 
 import './styles.css'; 
 
-export default function Board({ disabled, dimension, cards, flipped, solved, handleClick }) {
+export default function Board({ dimension, disabled, dimension, cards, flipped, solved, handleClick }) {
   return (
       <div className="board"
             style={{
